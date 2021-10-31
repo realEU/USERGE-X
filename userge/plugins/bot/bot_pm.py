@@ -190,14 +190,14 @@ My Master is : {owner_.flname}</b>
             if Config.BOT_FORWARDS:
                 start_msg += "<b>\n📌 NOTE:</b>\nYou can 📨 <b>Send Message</b> here to contact my <b>Master.</b>"
             contact_url = (
-                f"https://t.me/{owner_.uname}"
+                f"https://tx.me/{owner_.uname}"
                 if owner_.uname
                 else f"tg://user?id={owner_.id}"
             )
             btns = [
                 [
                     InlineKeyboardButton("𖤍 Λℓσηє 𖤍", url=contact_url),
-                    InlineKeyboardButton("Ƨυρρσят 🦋", url='https://MarineChats'),
+                    InlineKeyboardButton("Ƨυρρσят 🦋", url="https://tx.me/MarineChats"),
                 ]
             ]
         try:
