@@ -93,9 +93,9 @@ async def send_alive_message(message: Message) -> None:
         reply_markup = None
         file_id = _USER_CACHED_MEDIA
         caption += (
-            f"\n⚡️  <a href={Config.UPSTREAM_REPO}><b>REPO</b></a>"
+            f"\n🔊  <a href='https://tx.me/MarineBots'><b>CHANNEL</b></a>"
             "    <code>|</code>    "
-            "👥  <a href='https://t.me/useless_x'><b>SUPPORT</b></a>"
+            "🦋  <a href='https://tx.me/MarineChats'><b>SUPPORT</b></a>"
         )
     if not Config.ALIVE_MEDIA:
         await client.send_photo(
