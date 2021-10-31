@@ -17,14 +17,14 @@ OwnerFilter = filters.user(list(Config.OWNER_ID))
 _COMMANDS = {
     "secret": {
         "help_txt": "**Send a secret message to a user**\n (only the entered user and you can view the message)\n\n>>>  `secret @username [text]`",
-        "i_q": "secret @DeletedUser420 This is a secret message",
+        "i_q": "secret @xDune This is a secret message",
     },
     "troll": {
         "help_txt": "**Troll to a user**\n (everyone can view the message except the entered user)\n\n>>>  `troll @username [text]`",
-        "i_q": "troll @Lostb053 Lostboy can view this message",
+        "i_q": "troll @xDune Lostboy can view this message",
     },
     "alive": {
-        "help_txt": "**Alive Command for USERGE-X**\nHere You can view Uptime, Setting and Versions of your bot and when you change settings they are updated in Real-time UwU\n\n>>>  `alive`",
+        "help_txt": "**Alive Command for Dυηє**\nHere You can view Uptime, Setting and Versions of your bot and when you change settings they are updated in Real-time UwU\n\n>>>  `alive`",
         "i_q": "alive",
     },
     "opinion": {
