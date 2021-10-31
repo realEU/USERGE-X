@@ -57,22 +57,21 @@ _CATEGORY = {
 # Database
 SAVED_SETTINGS = get_collection("CONFIGS")
 REPO_X = InlineQueryResultArticle(
-    title="Repo",
-    input_message_content=InputTextMessageContent("**Here's how to setup USERGE-X** "),
-    url="https://github.com/code-rgb/USERGE-X",
-    description="Setup Your Own",
-    thumb_url="https://i.imgur.com/1xsOo9o.png",
+    title="Dυηє",
+    input_message_content=InputTextMessageContent("**I’m [𖤍 Λℓσηє 𖤍](https://tx.me/xdune)’ѕ personal assistant! You can contact him via my inbox...😌**"),
+    url="https://tx.me/MarineChats",
+    description="Λвσυт Mє...😴",
+    thumb_url="https://telegra.ph/file/d5abce79a70abe9e5b936.jpg",
     reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "🔥 USERGE-X Repo", url="https://github.com/code-rgb/USERGE-X"
+                    "Cнαηηєℓ 🔊", url="https://tx.me/MarineBots"
                 ),
                 InlineKeyboardButton(
-                    "🚀 Deploy USERGE-X",
+                    "Ƨυρρσят 🦋",
                     url=(
-                        "https://heroku.com/deploy?template="
-                        "https://github.com/code-pms/MyGpack"
+                        "https://tx.me/MarineChats"
                     ),
                 ),
             ]
@@ -213,7 +212,7 @@ if userge.has_bot:
             await callback_query.answer("you are in main menu", show_alert=True)
             return
         if len(pos_list) == 2:
-            text = " 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨"
+            text = " **Dυηє’ѕ Mαιη Mєηυ**"
             buttons = main_menu_buttons()
         elif len(pos_list) == 3:
             text, buttons = category_data(cur_pos)
@@ -265,7 +264,7 @@ if userge.has_bot:
     @check_owner
     async def callback_mm(callback_query: CallbackQuery):
         await callback_query.edit_message_text(
-            " 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 ",
+            " **Dυηє’ѕ Mαιη Mєηυ** ",
             reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
         )
 
@@ -501,14 +500,14 @@ if userge.has_bot:
                 owner = [
                     [
                         InlineKeyboardButton(
-                            text="Contact", url="https://t.me/deleteduser420"
+                            text="Contact", url="https://tx.me/xdune"
                         )
                     ]
                 ]
                 results.append(
                     InlineQueryResultPhoto(
                         photo_url="https://coverfiles.alphacoders.com/123/123388.png",
-                        caption="Hey I solved **𝚂𝚢𝚗𝚝𝚊𝚡's ░ Σrr♢r**",
+                        caption="Hey I solved **𖤍 Λℓσηє 𖤍 **",
                         reply_markup=InlineKeyboardMarkup(owner),
                     )
                 )
@@ -638,7 +637,7 @@ if userge.has_bot:
                     if Config.ALIVE_MEDIA.lower().strip() == "false":
                         results.append(
                             InlineQueryResultArticle(
-                                title="USERGE-X",
+                                title="Dυηє",
                                 input_message_content=InputTextMessageContent(
                                     alive_info, disable_web_page_preview=True
                                 ),
@@ -1139,10 +1138,10 @@ if userge.has_bot:
 
             MAIN_MENU = InlineQueryResultArticle(
                 title="Main Menu",
-                input_message_content=InputTextMessageContent(" 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 "),
-                url="https://github.com/code-rgb/USERGE-X",
-                description="Userge-X Main Menu",
-                thumb_url="https://i.imgur.com/1xsOo9o.png",
+                input_message_content=InputTextMessageContent("**Dυηє’ѕ Mαιη Mєηυ**"),
+                url="https://tx.me/MarineChats",
+                description="**Dυηє’ѕ Mαιη Mєηυ**",
+                thumb_url="https://telegra.ph/file/d5abce79a70abe9e5b936.jpg",
                 reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
             )
             results.append(MAIN_MENU)
