@@ -227,13 +227,17 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://telegram.dog/x_xtests"><b>USERGE-X</a> is Up and Running.</b>
+<a href="https://telegram.dog/xDuneBot"><b>Dυηє</a> is Up and Running.</b>
 
-  🐍   <b>Python :</b>    <code>v{versions.__python_version__}</code>
-  🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
-  🧬   <b>𝑿 :</b>    <code>v{get_version()}</code>
-
-<b>{Bot_Alive._get_mode()}</b>    <code>|</code>    🕔  <b>{userge.uptime}</b>
+ ┏━━━━━━━━━━━━━━━━━━━━━
+ ┣ Owner - <code>𖤍 Λℓσηє 𖤍</code>
+ ┣ Version - <code>v{get_version()}</code>
+ ┣ Mode - <code>{Bot_Alive._get_mode()}</code>
+ ┣ Uptime - <code>{userge.uptime}</code>
+ ┣ Python - <code>v{versions.__python_version__}</code>
+ ┣ Pyrogram - <code>v{versions.__pyro_version__}</code>
+ ┣ Branch - [alpha](https://github.com/realEU/USERGE-X/tree/alpha)
+ ┗━━━━━━━━━━━━━━━━━━━━━
 """
         return alive_info_
 
@@ -250,7 +254,7 @@ class Bot_Alive:
         buttons = [
             [
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
-                InlineKeyboardButton(text="⚡  REPO", url=Config.UPSTREAM_REPO),
+                InlineKeyboardButton(text="𖤍 Λℓσηє 𖤍", url="https://tx.me/xdune"),
             ]
         ]
         return InlineKeyboardMarkup(buttons)
