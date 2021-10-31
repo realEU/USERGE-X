@@ -1140,7 +1140,7 @@ if userge.has_bot:
                 title="Main Menu",
                 input_message_content=InputTextMessageContent("**Dυηє’ѕ Mαιη Mєηυ**"),
                 url="https://tx.me/MarineChats",
-                description="**Dυηє’ѕ Mαιη Mєηυ**",
+                description="Dυηє’ѕ Mαιη Mєηυ",
                 thumb_url="https://telegra.ph/file/d5abce79a70abe9e5b936.jpg",
                 reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
             )
