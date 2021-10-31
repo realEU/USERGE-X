@@ -230,13 +230,13 @@ class Bot_Alive:
 <a href="https://telegram.dog/xDuneBot"><b>Dυηє</a> is Up and Running.</b>
 
  ┏━━━━━━━━━━━━━━━━━━━━━
- ┣ Owner - <code>𖤍 Λℓσηє 𖤍</code>
- ┣ Version - <code>v{get_version()}</code>
- ┣ Mode - <code>{Bot_Alive._get_mode()}</code>
- ┣ Uptime - <code>{userge.uptime}</code>
- ┣ Python - <code>v{versions.__python_version__}</code>
- ┣ Pyrogram - <code>v{versions.__pyro_version__}</code>
- ┣ Branch - [alpha](https://github.com/realEU/USERGE-X/tree/alpha)
+ ┣ **Owner** - <code>𖤍 Λℓσηє 𖤍</code>
+ ┣ **Version** - <code>v{get_version()}</code>
+ ┣ **Mode** - <code>{Bot_Alive._get_mode()}</code>
+ ┣ **Uptime** - <code>{userge.uptime}</code>
+ ┣ **Python** - <code>v{versions.__python_version__}</code>
+ ┣ **Pyrogram** - <code>v{versions.__pyro_version__}</code>
+ ┣ **Branch** - [alpha](https://github.com/realEU/USERGE-X/tree/alpha)
  ┗━━━━━━━━━━━━━━━━━━━━━
 """
         return alive_info_
